@@ -36,7 +36,6 @@ end
 
 
 traffic_light = TrafficLight.new
-
 traffic_light.show_state
 
 
