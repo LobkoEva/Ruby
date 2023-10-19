@@ -21,7 +21,6 @@ numbers = user_input.split.map(&:to_i)
 print " Select the sort order(1 - increase, 2 - decrease): "
 order = gets.chomp.to_i
 
-# Викликаємо функцію сортування
 sort_numbers(numbers, order)
 
 end
